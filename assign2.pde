@@ -1,3 +1,4 @@
+
 final int GAME_START = 0;
 final int GAME_PLAYING = 1;
 final int GAME_WIN = 2;
@@ -42,7 +43,7 @@ void mousePressed(){
 void setup(){
   size(640,480);
  gameState=GAME_START;
- 
+  //<>//
  
 start1Img=loadImage("img/start1.png");
 start2Img=loadImage("img/start2.png");  
@@ -181,4 +182,3 @@ void keyReleased() {
     }
   }
 }
-
